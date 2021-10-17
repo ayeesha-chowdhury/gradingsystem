@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*==== common css ends ====*/
+
+.container{
+    height: 500px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+.container h2{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.container input{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px 60px;
+}
+
+.container .btn button{
+    font-family: 'PT Sans' , sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: lightcoral;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.container .btn button:hover{
+    background:crimson;
+}
+
+.container p{
+    font-family: 'PT Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: skyblue;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
